@@ -5,6 +5,14 @@ AccessibilityMentor helps newcomers as well as more experienced accessibility ad
 
 To contribute to the project, please read the [contribution guideline](https://github.com/YurisCodingClub/accessibility-mentor/blob/main/CONTRIBUTING.md) carefully.
 
+### CodeNewbies
+
+If you are a complete beginner in coding or open source, don't worry. Let's start with the following:
+Look up what semantic HTML means.
+Think about what a navigation actually is (a list of links). Use the corresponding semantic HTML for it.
+You can find everything needed to fulfill this issue by looking the terms up in [w3schools](https://www.w3schools.com) or [MDN](https://developer.mozilla.org/en-US/). If these sites are new to you, don't worry. You will get used to them over time.
+Happy coding 🙂
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
