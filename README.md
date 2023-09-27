@@ -1,6 +1,12 @@
 # accessibility-mentor
 AccessibilityMentor helps newcomers as well as more experienced accessibility advocates become better in their field.
 
+## Contributing
+
+To contribute to the project, please read the [contribution guideline](https://github.com/YurisCodingClub/accessibility-mentor/blob/main/CONTRIBUTING.md) carefully.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
