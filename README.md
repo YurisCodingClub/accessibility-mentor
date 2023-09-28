@@ -1,5 +1,6 @@
-# accessibility-mentor
-AccessibilityMentor helps newcomers as well as more experienced accessibility advocates become better in their field.
+# AccessibilityMentor
+
+Mainly, AccessibilityMentor helps newcomers as well as more experienced accessibility advocates become better in their field. But actually it is much more. By contributing to the Open Source project, you will gain hands-on experience working in an agile team, improve your skills and be part of an awesome community.
 
 ## Contributing
 
@@ -7,45 +8,38 @@ To contribute to the project, please read the [contribution guideline](https://g
 
 ### CodeNewbies
 
+If you are a complete beginner in open source / GitHub, don't worry. Look at the following description on [how to set up the project locally](https://github.com/YurisCodingClub/dev-cv/blob/main/README.md#how-to-contribute).
+
 If you are a complete beginner in coding or open source, don't worry. Let's start with the following:
 Look up what semantic HTML means.
 Think about what a navigation actually is (a list of links). Use the corresponding semantic HTML for it.
 You can find everything needed to fulfill this issue by looking the terms up in [w3schools](https://www.w3schools.com) or [MDN](https://developer.mozilla.org/en-US/). If these sites are new to you, don't worry. You will get used to them over time.
 Happy coding 🙂
 
----
+## Tech Stack
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+AccessibilityMentor is build using the following technologies:
 
-## Getting Started
+- Next.js - a framework for building server-rendered React applications
 
-First, run the development server:
+## Quickstart
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Currently only local development is possible.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This environment is fully on your computer and requires each dependency to be installed and set up, but it gives you the most flexibility for customisation.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [NodeJs](https://nodejs.org/en/download)
 
-## Learn More
+## Support
 
-To learn more about Next.js, take a look at the following resources:
+Don't forget to leave a star ⭐️
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## My Pledge
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I take participation in the community as a harassment-free experience for everyone and I pledge to act in ways to contribute to an open, welcoming, diverse and inclusive community.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have experienced or been made aware of unacceptable behaviour, please remember that you can report this. Read the [Code of Conduct](https://github.com/YurisCodingClub/accessibility-mentor/blob/main/CODE_OF_CONDUCT.md) for more details.

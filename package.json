@@ -1,20 +1,69 @@
 {
   "name": "accessibility-mentor",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "",
+    "engines": {
+    "node": "18.x"
+  },
+  "description": "AccessibilityMentor helps everyone (UX Designers, Developers, testers, content creators and more), get into web accessibility in an easier way. Contributors gain hands-on experience working in an agile team which helps them get ready for applying for jobs.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YurisCodingClub/accessibility-mentor.git"
+  },
+  "keywords": [
+    "javascript",
+    "socials",
+    "YurisCodingClub",
+    "reactjs",
+    "react",
+    "nextjs",
+    "accessibility"
+  ],
+  "author": "Julia Undeutsch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YurisCodingClub/accessibility-mentor/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "test": "next test",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "13.5.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
     "eslint": "8.50.0",
-    "eslint-config-next": "13.5.3"
+    "eslint-config-next": "13.5.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "eslint"
+  },
+  "husky": {
+      "hooks": {
+        "pre-commit": "yarn run lint-staged"
+      }
   }
 }
