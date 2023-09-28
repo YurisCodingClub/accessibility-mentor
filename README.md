@@ -6,6 +6,8 @@ Mainly, AccessibilityMentor helps newcomers as well as more experienced accessib
 
 To contribute to the project, please read the [contribution guideline](https://github.com/YurisCodingClub/accessibility-mentor/blob/main/CONTRIBUTING.md) carefully.
 
+‼️ To get more women and people with disabilities into Tech, I always assign tickets to them first.
+
 ### CodeNewbies
 
 If you are a complete beginner in open source / GitHub, don't worry. Look at the following description on [how to set up the project locally](https://github.com/YurisCodingClub/dev-cv/blob/main/README.md#how-to-contribute).
