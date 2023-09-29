@@ -38,11 +38,12 @@ Before contributing or adding a new feature, please make sure you have already i
 
 ### Commands
 
-1. `git clone https://github.com/YurisCodingClub/accessibility-mentor.git` - to get the code locally
-2. `cd accessibility-mentor` - to navigate into the project
-3. `npm install` - to install all the dependencies
-4. `code .` - to open Visual Studio Code
-5. `npm run dev` - to get the project running
+1. Create a fork of the project to get your own copy
+2. `git clone https://github.com/YurisCodingClub/accessibility-mentor.git` - to get the code locally
+3. `cd accessibility-mentor` - to navigate into the project
+4. `npm install` - to install all the dependencies
+5. `code .` - to open Visual Studio Code
+6. `npm run dev` - to get the project running
 
 ## Support
 
