@@ -6,7 +6,7 @@ Mainly, AccessibilityMentor helps newcomers as well as more experienced accessib
 
 To contribute to the project, please read the [contribution guideline](https://github.com/YurisCodingClub/accessibility-mentor/blob/main/CONTRIBUTING.md) carefully.
 
-‼️ To get more women and especially people with disabilities into Tech, I always assign tickets to them first.
+‼️ To get more women and especially people with disabilities into tech, I always assign tickets to them first.
 
 ### CodeNewbies
 
@@ -35,6 +35,14 @@ This environment is fully on your computer and requires each dependency to be in
 Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
 - [NodeJs](https://nodejs.org/en/download)
+
+### Commands
+
+1. `git clone https://github.com/YurisCodingClub/accessibility-mentor.git` - to get the code locally
+2. `cd accessibility-mentor` - to navigate into the project
+3. `npm install` - to install all the dependencies
+4. `code .` - to open Visual Studio Code
+5. `npm run dev` - to get the project running
 
 ## Support
 
