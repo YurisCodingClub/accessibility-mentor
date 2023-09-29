@@ -6,7 +6,7 @@ Mainly, AccessibilityMentor helps newcomers as well as more experienced accessib
 
 To contribute to the project, please read the [contribution guideline](https://github.com/YurisCodingClub/accessibility-mentor/blob/main/CONTRIBUTING.md) carefully.
 
-‼️ To get more women and people with disabilities into Tech, I always assign tickets to them first.
+‼️ To get more women and especially people with disabilities into Tech, I always assign tickets to them first.
 
 ### CodeNewbies
 
