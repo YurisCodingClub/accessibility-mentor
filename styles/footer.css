@@ -1,0 +1,17 @@
+.footer-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.logo-cont{
+  display: flex;
+  justify-content: center; 
+}
+
+.footer-copyright{  
+  display: flex;
+  justify-content: center; 
+  font-size: small;
+}

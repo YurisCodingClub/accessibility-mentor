@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../Components/Footer/footer.js";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       </Head>
       <main>
         <h1>Welcome to Accessibility Mentor</h1>
-      </main>
+        </main>
+        <Footer/>
     </div>
   );
 }

@@ -77,10 +77,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/swc-darwin-arm64@13.5.3":
+"@next/swc-win32-x64-msvc@13.5.3":
   version "13.5.3"
-  resolved "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.5.3.tgz"
-  integrity sha512-6hiYNJxJmyYvvKGrVThzo4nTcqvqUTA/JvKim7Auaj33NexDqSNwN5YrrQu+QhZJCIpv2tULSHt+lf+rUflLSw==
+  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.5.3.tgz"
+  integrity sha512-2Vz2tYWaLqJvLcWbbTlJ5k9AN6JD7a5CN2pAeIzpbecK8ZF/yobA39cXtv6e+Z8c5UJuVOmaTldEAIxvsIux/Q==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
