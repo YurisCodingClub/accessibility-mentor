@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     margin-top: auto;
+    position: absolute;
+    bottom: 2.5%;
 }
 
 .logo-cont{

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Footer from "../Components/Footer/footer.js";
+import Footer from "./Components/Footer/footer"
 
 export default function Home() {
   return (

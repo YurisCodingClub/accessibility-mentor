@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 
-import Logo from './../../Assets/logo.svg';
+import Logo from '../../../Assets/logo.svg';
 
 
 function Footer() {
