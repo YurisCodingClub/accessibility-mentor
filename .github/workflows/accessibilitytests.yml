@@ -17,6 +17,8 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+    - name: Start the Applcation
+      run: npm run dev
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v3

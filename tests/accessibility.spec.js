@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { AxeBuilder } from '@axe-core/playwright';
 
-test('should not have any automatically detectable WCAG A or AA violations', async ({ page }) => {
+test('should not have any automatically detectable accessibility violations', async ({ page }) => {
   await page.goto('http://localhost:3000/');
 
   const accessibilityScanResults = await new AxeBuilder({ page })
