@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "homepage": "",
-    "engines": {
+  "engines": {
     "node": "18.x"
   },
   "description": "AccessibilityMentor helps everyone (UX Designers, Developers, testers, content creators and more), get into web accessibility in an easier way. Contributors gain hands-on experience working in an agile team which helps them get ready for applying for jobs.",
@@ -35,6 +35,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@axe-core/playwright": "^4.7.3",
     "next": "13.5.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -52,6 +53,9 @@
     ]
   },
   "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.2",
+    "axe-playwright": "^1.2.3",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.3",
     "husky": "^8.0.3",
@@ -62,8 +66,8 @@
     "src/**/*.{js,jsx,ts,tsx}": "eslint"
   },
   "husky": {
-      "hooks": {
-        "pre-commit": "yarn run lint-staged"
-      }
+    "hooks": {
+      "pre-commit": "yarn run lint-staged"
+    }
   }
 }
