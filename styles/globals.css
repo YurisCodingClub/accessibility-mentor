@@ -23,8 +23,10 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-header {
+.nav-header {
     width: 100%;
     height: 80px;
     display: flex;
@@ -32,16 +34,16 @@ header {
     align-items: center;
 }
 
-ul {
+.nav-header ul {
     display: flex;
     padding-left: 0;
 }
 
-li {
+.nav-header li {
     list-style: none;
 }
 
-nav li a {
+.nav-header nav li a {
     font-size: 16px;
     padding: 10px;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header>
+    <header className='nav-header'>
         <nav>
             <ul>
                 <li>
