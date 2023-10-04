@@ -33,19 +33,11 @@ const Content = () => {
         {/* Menu Icon (visible on small screens) */}
         <div className={styles.menuBar}>
           <div className={styles.menuIcon} onClick={toggleMenu}>
-            {showMenu ? (
-              <FaTimes
-                size={32}
-                className={styles.menuIcon}
-                onClick={toggleMenu}
-              />
-            ) : (
-              <FaBars
-                size={36}
-                className={styles.menuIcon}
-                onClick={toggleMenu}
-              />
-            )}
+            <FaBars
+              size={36}
+              className={styles.menuIcon}
+              onClick={toggleMenu}
+            />
           </div>
         </div>
         <div className={styles.mainContent}>
@@ -59,7 +51,7 @@ const Content = () => {
           showMenu && windowWidth <= 991 ? styles.visible : ""
         }`}
       >
-        <TableOfContents />
+        <TableOfContents toggleMenu={toggleMenu} />
       </div>
     </div>
   );

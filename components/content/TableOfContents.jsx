@@ -1,10 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./TableOfContents.module.css";
+import { FaTimes } from "react-icons/fa";
 
-const TableOfContents = () => {
+const TableOfContents = ({ toggleMenu }) => {
   return (
     <div role="navigation">
+      <div className={styles.faTimes}>
+        <FaTimes size={32} className={styles.menuIcon} onClick={toggleMenu} />
+      </div>
       <details open>
         <summary>Table of Contents</summary>
         <ul>
