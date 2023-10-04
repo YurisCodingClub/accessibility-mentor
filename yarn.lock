@@ -1814,6 +1814,11 @@
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
 
+"react-icons@^4.11.0":
+  "integrity" "sha512-V+4khzYcE5EBk/BvcuYRq6V/osf11ODUM2J8hg2FDSswRrGvqiYUYPRy4OdrWaQOBj4NcpJfmHZLNaD+VH0TyA=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.11.0.tgz"
+  "version" "4.11.0"
+
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
