@@ -24,3 +24,24 @@ a {
 * {
   box-sizing: border-box;
 }
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+nav li a {
+    font-size: 16px;
+    padding: 10px;
+}
