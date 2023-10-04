@@ -1,0 +1,24 @@
+name: 💡 Feature Request
+about: Have a new idea/feature to suggest?
+labels:
+  - "⭐ goal: addition"
+
+body:
+  - type: textarea
+    id: description
+    label: Please provide a detailed description of your idea or feature request.
+    description: Share all relevant details and specifications here.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    label: Screenshots (if applicable)
+    description: If visual elements are relevant, you can attach screenshots or images.
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    label: Additional Information
+    description: Any extra context, considerations, or supporting information.
+    validations:
+      required: false
