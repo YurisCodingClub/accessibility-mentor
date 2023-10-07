@@ -30,12 +30,15 @@
     "build": "next build",
     "start": "next start",
     "test": "next test",
+    "test:a11y": "npx playwright test",
     "lint": "next lint",
     "prepare": "husky install",
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@axe-core/playwright": "^4.7.3",
     "next": "13.5.3",
+    "playwright": "^1.38.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0"
@@ -53,6 +56,8 @@
     ]
   },
   "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.3",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.3",
     "husky": "^8.0.3",
