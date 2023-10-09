@@ -9,6 +9,7 @@
     "plugin:react/recommended",
     "next",
     "plugin:@next/next/recommended",
+    "plugin:storybook/recommended",
     "plugin:storybook/recommended"
   ],
   "parserOptions": {
@@ -18,7 +19,9 @@
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": [
+    "react"
+  ],
   "settings": {
     "react": {
       "version": "detect"
