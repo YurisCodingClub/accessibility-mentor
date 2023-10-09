@@ -33,7 +33,9 @@
     "test:a11y": "npx playwright test",
     "lint": "next lint",
     "prepare": "husky install",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@axe-core/playwright": "^4.7.3",
@@ -58,11 +60,21 @@
   "devDependencies": {
     "@playwright/test": "^1.38.1",
     "@types/node": "^20.8.3",
+    "@storybook/addon-essentials": "^7.4.6",
+    "@storybook/addon-interactions": "^7.4.6",
+    "@storybook/addon-links": "^7.4.6",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.6",
+    "@storybook/nextjs": "^7.4.6",
+    "@storybook/react": "^7.4.6",
+    "@storybook/testing-library": "^0.2.2",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.3",
+    "eslint-plugin-storybook": "^0.6.14",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
-    "prettier": "3.0.3"
+    "prettier": "3.0.3",
+    "storybook": "^7.4.6"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": "eslint"
