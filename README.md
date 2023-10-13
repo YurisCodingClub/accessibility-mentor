@@ -49,6 +49,16 @@ Before contributing or adding a new feature, please make sure you have already i
 
 Don't forget to leave a star ⭐️
 
+## Contributors
+
+[//]: contributor-faces
+
+<a href="https://github.com/YuriDevAT"><img src="https://avatars.githubusercontent.com/u/54622834?v=4" title="Julia Undeutsch" width="80" height="80"></a>
+<a href="https://github.com/Chizycodes"><img src="https://avatars.githubusercontent.com/u/53119290?v=4" title="Joy Okwudire" width="80" height="80"></a>
+<a href="https://github.com/CBID2"><img src="https://avatars.githubusercontent.com/u/105683440?v=4" title="Christine Belzie" width="80" height="80"></a>
+
+[//]: contributor-faces
+
 ## My Pledge
 
 I take participation in the community as a harassment-free experience for everyone and I pledge to act in ways to contribute to an open, welcoming, diverse and inclusive community.
