@@ -44,6 +44,7 @@ Before contributing or adding a new feature, please make sure you have already i
 4. `npm install` - to install all the dependencies
 5. `code .` - to open Visual Studio Code
 6. `npm run dev` - to get the project running
+7. `npm run storybook` - to open storybook in localhost:6006
 
 ## Support
 
