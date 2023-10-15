@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 import styles from "./TableOfContents.module.css";
 import TableOfContents from "./TableOfContents";
 import ContentBody from "./ContentBody";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 const Content = () => {
   const [showMenu, setShowMenu] = useState(false);

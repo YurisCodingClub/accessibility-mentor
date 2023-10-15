@@ -5,7 +5,7 @@ import { FaTimes } from "react-icons/fa";
 
 const TableOfContents = ({ toggleMenu }) => {
   return (
-    <div role="navigation">
+    <div>
       <div className={styles.faTimes}>
         <FaTimes size={32} className={styles.menuIcon} onClick={toggleMenu} />
       </div>
