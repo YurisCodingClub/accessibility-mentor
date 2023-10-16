@@ -45,13 +45,13 @@ const Content = () => {
         </div>
       </div>
 
-      <div
+      <aside
         className={`${styles.widget} ${
           showMenu && windowWidth <= 991 ? styles.visible : ""
         }`}
       >
         <TableOfContents toggleMenu={toggleMenu} />
-      </div>
+      </aside>
     </div>
   );
 };
