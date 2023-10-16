@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 540px;
+  border-radius: 5px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.custom-img {
+  border-radius: 5px;
+}
+
+.custom-row {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+.card-body {
+  padding: 0 1rem 0 1.7rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
