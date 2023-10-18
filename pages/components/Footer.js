@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import Logo from
+// import logo here 
 
 
 const Footer = () => {
     return (
         <footer>
-
+{/* create full width */}
         </footer>
     )
 }
