@@ -5,8 +5,7 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
-        <footer>
-{/* create full width */}
+        <footer style={{ width: "100%", position: "relative", bottom: "0"}}>
         </footer>
     );
 };
