@@ -5,9 +5,15 @@ import { FaTimes } from "react-icons/fa";
 
 const TableOfContents = ({ toggleMenu }) => {
   return (
-    <div role="navigation">
+    <nav aria-label="Table of Content">
       <div className={styles.faTimes}>
-        <FaTimes size={32} className={styles.menuIcon} onClick={toggleMenu} />
+        <FaTimes
+          role="button"
+          aria-label="Close Menu"
+          size={32}
+          className={styles.menuIcon}
+          onClick={toggleMenu}
+        />
       </div>
       <details open>
         <summary>Table of Contents</summary>
@@ -26,7 +32,7 @@ const TableOfContents = ({ toggleMenu }) => {
           </li>
         </ul>
       </details>
-    </div>
+    </nav>
   );
 };
 
