@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Content from "../components/content";
-import Header from "./components/Header";
-import Hero from "../components/hero/Hero";
+import Content from "./courses";
+import Header from "./Header";
+import Hero from "./home/Hero";
 
-export default function Home() {
+export default function Myapp() {
   return (
     <div>
       <Head>
