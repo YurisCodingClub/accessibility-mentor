@@ -8,5 +8,7 @@ const Footer = () => {
         <footer>
 {/* create full width */}
         </footer>
-    )
-}
+    );
+};
+
+export default Footer;
