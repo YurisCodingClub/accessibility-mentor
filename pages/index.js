@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Content from "./courses";
-import Header from "./Header";
 import Hero from "./home/Hero";
 
-export default function Myapp() {
+export default function Home() {
   return (
     <div>
       <Head>
@@ -12,7 +11,6 @@ export default function Myapp() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header />
         <Content />
         <Hero />
       </main>
