@@ -1,0 +1,27 @@
+---
+name: "🐛 Bug"
+description: "Report an issue to help improve the project."
+labels: ["🛠 goal: fix"]
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Issue Description
+      description: Please provide a detailed description of the issue. Include steps to reproduce the issue and expected vs. actual results.
+    validations:
+      required: true
+  - type: textarea
+    id: bug-screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, please provide screenshots highlighting the issue.
+    validations:
+      required: false
+  - type: textarea
+    id: bug-extrainfo
+    attributes:
+      label: Additional Information
+      description: Please provide any additional information about the issue (e.g. logs, environment info)
+    validations:
+      required: false
+---
