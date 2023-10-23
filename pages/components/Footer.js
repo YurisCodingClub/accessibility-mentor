@@ -9,14 +9,15 @@ const Footer = () => {
         width: "100%",
         position: "fixed",
         bottom: "0",
-        margin: "auto",
-        textAlign: "center",
       }}
     >
-      <Image src={logo} alt="footer-logo" width={100} height="auto" />
-      <p className="copyright">
-        AccessibilityMentor 2023. All rights reserved.
-      </p>
+      <Image
+        src={logo}
+        alt="next to black, yellow, and blue dots is Julia's project, accessibilityfirst, written in lowercase and black and blue colors"
+        width={100}
+        height="auto"
+      />
+      <p>AccessibilityMentor 2023. All rights reserved.</p>
     </footer>
   );
 };
