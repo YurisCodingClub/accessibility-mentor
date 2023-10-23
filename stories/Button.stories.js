@@ -13,6 +13,7 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: "color" },
+    boxShadow: { control: "box-shadow" },
   },
 };
 
@@ -30,16 +31,16 @@ export const Secondary = {
   },
 };
 
-export const Large = {
+export const Text = {
   args: {
-    size: "large",
     label: "Button",
+    boxShadow: "unset",
   },
 };
 
-export const Small = {
+export const Large = {
   args: {
-    size: "small",
+    size: "large",
     label: "Button",
   },
 };
