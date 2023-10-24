@@ -11,12 +11,7 @@ const Footer = () => {
         bottom: "0",
       }}
     >
-      <Image
-        src={logo}
-        alt="next to black, yellow, and blue dots is Julia's project, accessibilityfirst, written in lowercase and black and blue colors"
-        width={100}
-        height="auto"
-      />
+      <Image src={logo} alt=" " width={100} height="auto" />
       <p>AccessibilityMentor 2023. All rights reserved.</p>
     </footer>
   );

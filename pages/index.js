@@ -15,8 +15,8 @@ export default function Home() {
         <Header />
         <Content />
         <Hero />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 }
