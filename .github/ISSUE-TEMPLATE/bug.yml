@@ -1,27 +1,34 @@
----
-name: "🐛 Bug"
-description: "Report an issue to help improve the project."
+name: "🐛 Bug Report"
+about: Report a bug to help improve the project.
 labels: ["🛠 goal: fix"]
 body:
   - type: textarea
     id: bug-description
     attributes:
-      label: Issue Description
-      description: Please provide a detailed description of the issue. Include steps to reproduce the issue and expected vs. actual results.
+      label: Bug Description
+      description: Please provide a detailed description of the bug. Include steps to reproduce the issue and expected vs. actual results.
     validations:
       required: true
   - type: textarea
     id: bug-screenshots
     attributes:
-      label: Screenshots
-      description: If applicable, please provide screenshots highlighting the issue.
+      label: Screenshots (if applicable)
+      description: If visual elements are relevant, you can attach screenshots or images.
     validations:
       required: false
+  - type: dropdown
+    id: browsers
+    label: What browser(s) do you see this problem on? (Optional)
+    multiple: true
+    options:
+      - Firefox
+      - Chrome
+      - Safari
+      - Microsoft Edge
   - type: textarea
     id: bug-extrainfo
     attributes:
-      label: Additional Information
-      description: Please provide any additional information about the issue (e.g. logs, environment info)
+      label: Additional Information (Optional)
+      description: Any additional information that may be helpful, such as your environment or version information.
     validations:
       required: false
----
