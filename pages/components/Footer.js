@@ -9,7 +9,7 @@ const Footer = () => {
         width: "100%",
       }}
     >
-      <Image src={logo} alt=" " width={100} height="auto" />
+      <Image src={logo} alt="" width={100} height="auto" />
       <p>AccessibilityMentor 2023. All rights reserved.</p>
     </footer>
   );
