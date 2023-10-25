@@ -7,10 +7,6 @@ const Footer = () => {
     <footer
       style={{
         width: "100%",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        textAlign: "center",
       }}
     >
       <Image src={logo} alt=" " width={100} height="auto" />
