@@ -1,6 +1,6 @@
 ---
 name: "Documentation 📋"
-description: "Use this form to present your suggestions on how to improve our docs"
+description: "Found an issue in the documentation? Raise your suggestions here! 😊"
 title: "[DOCS] <write your suggestion here>"
 labels: ["documentation", "goal: enhancement"]
 body:
