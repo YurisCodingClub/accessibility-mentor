@@ -1,3 +1,4 @@
+---
 name: 'Documentation 📋'
 description: 'Use this form to present your suggestions on how to improve our docs'
 title: '[DOCS] <write your suggestion here>'
@@ -38,4 +39,4 @@ body:
   - type: markdown
     attributes:
       value: 'Thank you for taking the time to raise this issue! Your input is greatly appreciated.'
-
+    ---
