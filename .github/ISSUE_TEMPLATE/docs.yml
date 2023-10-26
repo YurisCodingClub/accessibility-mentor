@@ -1,29 +1,30 @@
 ---
-name:  "📄 Documentation issue"
-description: "Found an issue in the documentation? Raise your suggestions here! 😊"
+name: 📄 Documentation issue
+about: Found an issue in the documentation? Raise your suggestions here! 😊
 labels: ["📄 aspect: text"]
 body:
-- type: textarea
-id: details
-attributes:
-label: Problem
-description: "Briefly describe the problem you found in our documentation"
-placeholder: "(e.g., I noticed that[problem])"
-validations:
-required: true
-- type: textarea
-id: docs_screenshots
-attributes:
-label: screenshots
-description: "Please add screenshots if helpful" 
-validations:
-required: false 
-- type: textarea
-id: description
-attributes:
-label: Possible Solution and Benefit 
-description: "Describe your solution and how it can help enhance the project" 
-placeholder: "(e.g., I suggest[your solution]. This can [add benefit here])"
-validations:
-required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Issue Description
+      description: Please provide a detailed description of the issue you found in the documentation. Include steps to reproduce the issue and expected vs. actual results.
+      placeholder: "(e.g., I noticed that [problem])"
+    validations:
+      required: true
+  - type: textarea
+    id: docs_screenshots
+    attributes:
+      label: Screenshots (if applicable)
+      description: If visual elements are relevant, you can attach screenshots or images.
+    validations:
+      required: false
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution to the issue.
+      placeholder: "(e.g., I suggest [your solution]. This can [add benefit here])"
+    validations:
+      required: true
+
 ---
