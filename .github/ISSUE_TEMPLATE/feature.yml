@@ -1,3 +1,4 @@
+---
 name: 💡 Feature Request
 about: Have a new idea/feature to suggest?
 labels:
@@ -22,3 +23,5 @@ body:
     description: Any extra context, considerations, or supporting information.
     validations:
       required: false
+---
+
