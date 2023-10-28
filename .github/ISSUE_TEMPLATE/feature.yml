@@ -1,24 +1,32 @@
-name: 💡 Feature Request
-about: Have a new idea/feature to suggest?
-labels:
-  - "⭐ goal: addition"
-
+name: Feature Request 💡
+description: Have any new idea or new feature? Raise your suggestions here! 😊
+title: "[Feature] <write a small description here>"
+labels: ["enhancement", "goal: addition", "priority: high"]
 body:
   - type: textarea
     id: description
-    label: Please provide a detailed description of your idea or feature request.
-    description: Share all relevant details and specifications here.
+    attributes:
+      label: Description
+      description: A clear and concise description of any alternative solution or features you've considered.
     validations:
       required: true
   - type: textarea
     id: screenshots
-    label: Screenshots (if applicable)
-    description: If visual elements are relevant, you can attach screenshots or images.
+    attributes:
+      label: Screenshots
+      description: Please add screenshots if applicable
     validations:
       required: false
-  - type: textarea
-    id: extrainfo
-    label: Additional Information
-    description: Any extra context, considerations, or supporting information.
-    validations:
-      required: false
+  - type: checkboxes
+    id: no-duplicate-issues
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked the existing issues"
+          required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I am willing to work on this issue (optional)"
+          required: false
