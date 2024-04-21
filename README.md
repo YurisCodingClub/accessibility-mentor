@@ -1,11 +1,3 @@
-# ❗ AccessibilityMentor is taking a break ❗
-
-Thank you so much for your contributions 🥳.
-
-For now, this project does not take any new PRs, issue suggestions and such. After refactoring and updating the code base of the repository by the maintainers, the repo will be back with more issues and even better guidance.
-
-See you soon 👋
-
 # AccessibilityMentor
 
 Mainly, AccessibilityMentor helps newcomers as well as more experienced accessibility advocates become better in their field. But actually it is much more. By contributing to the Open Source project, you will gain hands-on experience working in an agile team, improve your skills and be part of an awesome community.
