@@ -58,7 +58,7 @@ Before contributing or adding a new feature, please make sure you have already i
 
 Don't forget to leave a star ⭐️
 
-## Contributors
+## Top Contributors
 
 [//]: contributor-faces
 
